@@ -1,0 +1,52 @@
+.example-box {
+  cursor: move;
+  
+}
+
+mat-toolbar {
+  margin-bottom: 20px;
+}
+
+mat-toolbar > span {
+  margin-left: 10px;
+}
+
+.content-wrapper {
+  max-width: 1400px;
+  margin-left: 25px;
+}
+
+.container-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.addTask {
+  margin-left: -15px;
+}
+
+.container {
+  width: 400px;
+  margin: 0 25px 25px 0;
+}
+
+.list {
+  border: solid 1px #ccc;
+  min-height: 60px;
+  border-radius: 4px;
+}
+
+.empty-label {
+  font-size: 2em;
+  padding-top: 10px;
+  text-align: center;
+  opacity: 0.2;
+}
+
+.cdk-drag-placeholder {
+  opacity: 0;
+}
+
+.cdk-drag-animating {
+  transition: transform 250ms;
+}
